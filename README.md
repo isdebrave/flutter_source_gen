@@ -9,7 +9,7 @@
   - {{file_name}}: 파일명 (user)
   - {{}}: 전체 경로 (model/user)
 
-## 모든 생성 파일을 `lib/generated/`에 넣는 경우
+## 1. 모든 생성 파일을 `lib/generated/`에 넣는 경우
 ```yaml
 targets:
   $default:
@@ -38,7 +38,7 @@ lib/
 │   │── animal.dart.dart
 ```
 
-## 디렉토리 안에 `generated/`를 생성하고 그 안에 생성 파일을 넣는 경우
+## 2. 디렉토리 안에 `generated/`를 생성하고 그 안에 생성 파일을 넣는 경우
 ```yaml
 targets:
   $default:
